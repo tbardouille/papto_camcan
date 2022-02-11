@@ -1,3 +1,20 @@
+'''
+########################################################################################
+################################### NOTES ##############################################
+
+This script is designed to generate time-domain waveforms associated with papto and med-norm
+burst events
+
+Inputs (for each participant):
+- two events lists (csv): one papto events and one med-norm events
+- epoch.fif files for each anatomical ROI
+
+Outputs (for each participant):
+ - epoch fif files of transient event waveforms
+
+########################################################################################
+'''
+
 # Import libraries
 import os
 import sys
