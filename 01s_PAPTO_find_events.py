@@ -1,3 +1,18 @@
+'''
+########################################################################################
+################################### NOTES ##############################################
+
+This script is designed find transient events using the papto algorithm.
+
+Inputs (for each participant):
+ - epoch.fif file (one per participant) with four timecourses (M1 & S1 - left & right)
+
+Outputs (for each participant):
+ - list (CSV) of transient events detect using the papto algorithm.
+
+########################################################################################
+'''
+
 # Import libraries
 import os
 import sys
