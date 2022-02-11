@@ -1,3 +1,25 @@
+
+'''
+########################################################################################
+################################### NOTES ##############################################
+
+This script is designed to estimate anatomical ROI timecourses using the dSPM method.
+
+Inputs (for each participant):
+- epochFif: sensor level timecourses
+- transFif: head <-> MRI transform 
+- srcFif: source space
+- bemFif = boundary element model
+- emptyroomFif = empty room recording for noise covariance matrix
+
+Outputs (for each participant):
+ - epoch.fif file (one per participant) with four timecourses (M1 & S1 - left & right)
+
+########################################################################################
+'''
+
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 import os
