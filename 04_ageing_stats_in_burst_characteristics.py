@@ -1,3 +1,19 @@
+'''
+########################################################################################
+################################### NOTES ##############################################
+
+This script is designed to generated ageing models for papto and med-norm burst characteristics
+
+Inputs (for each participant):
+- two events lists (csv): one papto events and one med-norm events
+
+Outputs (for each participant):
+ - ageing model stats in csv format
+ - scatterplots (linear and quadratic) of age-related changes in each event characteristic
+
+########################################################################################
+'''
+
 # Import libraries
 import os
 import sys
