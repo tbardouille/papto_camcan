@@ -1,3 +1,19 @@
+'''
+########################################################################################
+################################### NOTES ##############################################
+
+This script is designed find transient events using an adapted Shin, 2017 algorithm.
+Reference: eLife 2017;6:e29086 doi: 10.7554/eLife.29086
+
+Inputs (for each participant):
+ - epoch.fif file (one per participant) with four timecourses (M1 & S1 - left & right)
+
+Outputs (for each participant):
+ - list (CSV) of transient events detect using the Shin 2017 algorithm.
+
+########################################################################################
+'''
+
 # Import libraries
 import os
 import sys
