@@ -1,3 +1,20 @@
+
+'''
+########################################################################################
+################################### NOTES ##############################################
+
+This script is designed to classify events as either papto-only, med-norm-only, or shared
+(i.e. detected by both methods)
+
+Inputs (for each participant):
+- two events lists (csv): one papto events and one med-norm events
+
+Outputs (for each participant):
+ - same as the inputs but with an extra column indicating what category the event falls into
+
+########################################################################################
+'''
+
 # Import libraries
 import os
 import sys
